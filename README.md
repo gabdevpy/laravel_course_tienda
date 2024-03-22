@@ -11,6 +11,9 @@ Views
 Controllers
 and More...
 
+#branchs to use:
+master
+
 # Version 1, until video 14:
 https://www.udemy.com/course/aprende-laravel-modelos-migraciones-rutas-vistas-etc/learn/lecture/14616976#overview
 CRUD products: Create, Read/List, Update, Delete Products
