@@ -19,6 +19,19 @@ https://www.udemy.com/course/aprende-laravel-modelos-migraciones-rutas-vistas-et
 CRUD products: Create, Read/List, Update, Delete Products
 Code source repeated in Blade views: index, create and delete
 
+# How to run
+- Clonar el repositorio: git clone URL-repo
+- Crear BD en Mysql llamada tienda
+- Revisar que el .env este asociado la BD llamada tienda
+- Abrir la terminal
+- Probar que estA bien configurada la BD si este comando no lanza ningun error: php artisan tinker
+- Ejecutar la migraciones para que se creeen las tablas en la bd, incluyendo tabla products:
+php artisan migrate
+- Ejecutar comando para lanzar servidor:
+php artisan serve
+- Abrir navegador en http://localhost:8000
+-Debe mostrar el proyecto funcionando, el listado de productos con los botones Nuevo Producto, Actualizar y Eliminar
+
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
